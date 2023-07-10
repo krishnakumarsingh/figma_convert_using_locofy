@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/figma_convert_using_locofy/static/css/main.7e7e0e03.css",
+    "main.js": "/figma_convert_using_locofy/static/js/main.dfc2bb1f.js",
+    "index.html": "/figma_convert_using_locofy/index.html",
+    "main.7e7e0e03.css.map": "/figma_convert_using_locofy/static/css/main.7e7e0e03.css.map",
+    "main.dfc2bb1f.js.map": "/figma_convert_using_locofy/static/js/main.dfc2bb1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e7e0e03.css",
+    "static/js/main.dfc2bb1f.js"
+  ]
+}
