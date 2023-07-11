@@ -1,0 +1,55 @@
+.title6 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -2px;
+  line-height: 60px;
+  font-weight: 600;
+}
+.input {
+  border: 0;
+  background-color: transparent;
+  flex: 1;
+}
+.button3 {
+  cursor: pointer;
+}
+.form,
+.subscribe,
+.subscribeform {
+  display: flex;
+  justify-content: flex-start;
+}
+.form {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-2xl);
+}
+.subscribe,
+.subscribeform {
+  flex-direction: column;
+  align-items: center;
+}
+.subscribeform {
+  width: 743px;
+  gap: var(--gap-28xl);
+  max-width: 90%;
+}
+.subscribe {
+  align-self: stretch;
+  background-color: var(--color-black);
+  padding: var(--padding-57xl) 0 var(--padding-105xl);
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 768px) {
+  .input {
+    flex: unset;
+    align-self: stretch;
+  }
+  .form {
+    flex-direction: column;
+  }
+}

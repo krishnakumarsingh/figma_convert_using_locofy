@@ -1,0 +1,105 @@
+.cardimage-icon {
+  position: relative;
+  width: 373px;
+  height: 250px;
+  object-fit: cover;
+}
+.title1 {
+  position: relative;
+  letter-spacing: 0.3px;
+  line-height: 45px;
+  font-weight: 600;
+}
+.subtitle1 {
+  position: relative;
+  font-size: var(--font-size-smi);
+  letter-spacing: 0.5px;
+  line-height: 14px;
+  opacity: 0.67;
+}
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.duration-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 72px;
+  height: 29px;
+}
+.div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 1.37px;
+  line-height: 19px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+}
+.duration {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 72px;
+  height: 29px;
+}
+.text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-xl);
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: -30px;
+}
+.exercisecard {
+  width: 373.33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.image-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 250px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.column-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-63xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .column-1 {
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 768px) {
+  .column-1 {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 428px) {
+  .column-1 {
+    transform: scale(0.8);
+  }
+}
